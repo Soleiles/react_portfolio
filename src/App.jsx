@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom';
+
 import './App.css';
-import Navigation from "./components/Nav";
+import NavTabs from './components/Nav';
 
 function App() {
-
   return (
     <>
-      <Navigation />
+      <NavTabs />
+      <Outlet />
     </>
   );
 }
