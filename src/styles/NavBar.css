@@ -1,3 +1,16 @@
-* {
-    border-color: solid black;
+body {
+    background-color: #dde5e7;
+}
+.nav-bar {
+    background-color: lightblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.name {
+    font-weight: 600;
+    font-size: 30px;
+}
+.nav-link {
+    font-size: 18px;
 }

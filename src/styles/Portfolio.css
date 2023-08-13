@@ -1,3 +1,20 @@
-* {
-    border-color: solid black;
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 24%;
+    background-color: #cceaff;
+    margin: 10px;
+}
+.card-body {
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn {
+    margin-top: 5px;
+    background-color: #7faaff;
 }

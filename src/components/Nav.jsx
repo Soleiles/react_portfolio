@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
+import '../styles/NavBar.css';
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -10,7 +11,7 @@ function NavTabs() {
     <header>
       <Navbar expand='lg' className='nav-bar'>
         <Container>
-          <Navbar.Brand className='full-name'>Kevin Taing</Navbar.Brand>
+          <Navbar.Brand className='name'>Kevin Taing</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto tabs'>
