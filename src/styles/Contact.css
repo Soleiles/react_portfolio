@@ -1,3 +1,7 @@
-* {
-    border-color: solid black;
+.form-label {
+    font-size: 22px;
+}
+.text-error {
+    font-size: 15px;
+    font-style: italic;
 }
