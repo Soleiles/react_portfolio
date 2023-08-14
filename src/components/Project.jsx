@@ -7,6 +7,7 @@ import CodeQuiz from "../assets/images/code-quiz.png";
 import PasswordGen from "../assets/images/password-gen.png";
 import Scheduler from "../assets/images/work-day-scheduler.png";
 
+// ****** List of Projects ******
 const projects = [
     {
         id: "1",
@@ -52,6 +53,7 @@ const projects = [
     },
 ];
 
+// ****** projects array goes to project cards ******
 function Project() {
     return (
         <div className="project-card">

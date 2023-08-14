@@ -1,5 +1,6 @@
 import React from 'react';
 
+// ****** HTML for the projects cards ******
 function ProjectCard({ card: { title, image, app, repo } }) {
     return (
         <div className="card">

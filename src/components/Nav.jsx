@@ -7,6 +7,7 @@ import '../styles/NavBar.css';
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
+  // ****** Allows Page Navigation ******
   return (
     <header>
       <Navbar expand='lg' className='nav-bar'>

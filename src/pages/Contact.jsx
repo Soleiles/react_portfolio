@@ -6,6 +6,7 @@ import "../styles/Contact.css";
 
 import { validateEmail } from "../utils/helpers";
 
+// ****** Checks for all required fields ******
 function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -90,7 +91,7 @@ function Contact() {
         }
     };
 
-
+    // ****** Contact Form ******
     return (
         <div className="contact">
             <h2>Contact me!</h2>
