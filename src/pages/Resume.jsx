@@ -1,14 +1,13 @@
 import React from 'react';
-import ResumePDF from '../assets/placeHolder-resume.pdf';
 import '../styles/AboutMe.css';
-
+import '../styles/Resume.css';
 
 export default function Resume() {
     return (   
         <>
         <div className="resume">
             <article className='resume-dl'>
-                <a href={ResumePDF} download="PlaceholderResume" target='_blank' rel='noreferrer' className='btn btn-primary'>Download Resume</a>
+                <a href='' download="PlaceholderResume" target='_blank' rel='noreferrer' className='btn btn-primary'>Download Resume</a>
             </article>
 
             <article className="list">
