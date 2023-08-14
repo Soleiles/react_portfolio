@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumePDF from '../assets/PlaceHolder-Resume.pdf';
+import ResumePDF from '../assets/placeHolder-resume.pdf';
 import '../styles/AboutMe.css';
 
 
