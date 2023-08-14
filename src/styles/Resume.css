@@ -1,3 +1,10 @@
-* {
-    border-color: solid black;
+.resume-dl {
+    display: flex;
+    justify-content: end;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 18px;
 }
